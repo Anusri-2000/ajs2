@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    class person{
+        constructor(name,age){
+            this.name=name;
+            this.age=age;
+
+        }
+        greet(){
+            console.log('hello this is ${this.name} and Iam ${this.age}old');
+        }
+    }
+        person.prototype.country="unknown";
+        const person1=new person("Anusri",20);
+        const person2=new person("nikhil",21);
+        person1.greet();
+        person2.greet();
+
+    
+</script>
+</html>
